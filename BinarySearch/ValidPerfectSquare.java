@@ -1,9 +1,6 @@
 package BinarySearch;
 
-public class ValidPerfectSquare {
-    
-}
-class Solution {
+class ValidPerfectSquare {
     public boolean isPerfectSquare(int num) {
         int low = 1;
         int high = num;
