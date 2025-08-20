@@ -5,10 +5,7 @@
 
 package BinarySearch;
 
-public class SplitArrayLargestSum {
-    
-}
-class Solution {
+class SplitArrayLargestSum {
     public int splitArray(int[] nums, int k) {
         int low = 0, high = 0, ans = -1; // Declaring Constraints
         for (int i = 0; i < nums.length; i++) {

@@ -1,9 +1,6 @@
 package BinarySearch;
 
-public class TwoElementSum {
-
-}
-class Solution {
+class TwoElementSum {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0, right = numbers.length - 1;
 

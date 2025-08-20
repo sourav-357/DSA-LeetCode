@@ -1,9 +1,6 @@
 package BinarySearch;
 
-public class SearchInRotatedSortedArray {
-    
-}
-class Solution {
+class SearchInRotatedSortedArray {
     public boolean search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
 
