@@ -41,6 +41,7 @@ public class Solution extends VersionControl {
 
         while (left < right) {
             int mid = left + (right - left) / 2; // Prevent overflow
+            
             if (isBadVersion(mid)) {
                 right = mid; // Bad version found, move left
             } else {
@@ -54,7 +55,7 @@ public class Solution extends VersionControl {
     // Main method for testing
     public static void main(String[] args) {
         int n = 10;           // total versions
-        int firstBad = 4;     // Suppose version 4 is the first bad version
+        int firstBad = 4; 
 
         Solution solution = new Solution(firstBad);
         int result = solution.firstBadVersion(n);
